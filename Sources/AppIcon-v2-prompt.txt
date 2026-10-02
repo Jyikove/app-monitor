@@ -1,0 +1,14 @@
+Mode: built-in image_gen; generated with alpha transparency.
+
+Use case: logo-brand
+Asset type: production macOS application icon for App monitor, a clean utility that combines each application's CPU and memory usage into one row.
+Primary request: create one polished, distinctive native macOS-style icon that coordinates with this app's teal accent and Liquid Glass interface.
+Subject: two slightly offset, overlapping rounded application cards; the front card contains exactly three bold rounded vertical resource-usage bars of different heights. One simple, unified silhouette, immediately readable at small Dock sizes.
+Style/medium: refined dimensional icon rendering, translucent frosted glass cards with restrained clear glass edges, subtle depth and soft highlights; simple geometry rather than a detailed dashboard.
+Scene/backdrop: a teal-to-deep-blue-green rounded-square app tile. Outside the tile and its subtle tight shadow, use genuine alpha transparency.
+Composition/framing: square 1024-by-1024 canvas, centered, front-facing with very slight depth, tile occupies approximately 84% of the canvas with balanced transparent margins. Keep the central mark large, bold and neatly contained in the tile.
+Lighting/mood: clean, calm, precise; soft top-left studio highlight and understated shadow.
+Color palette: the app's existing seafoam teal and deep blue-green, frosted pale cyan and white highlights; strong light-dark separation for legibility.
+Text: none.
+Constraints: a single finished icon, no words, letters, numbers, watermark, Apple logo, devices, surrounding scene, sample grid, mockup, or multiple variants. Avoid tiny UI details, thin hairlines, ECG traces and busy decorations. Preserve real transparency; do not draw a checkerboard.
+

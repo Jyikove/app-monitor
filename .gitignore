@@ -1,0 +1,18 @@
+# Local macOS metadata
+.DS_Store
+.AppleDouble/
+
+# Built application (distributed through GitHub Releases)
+*.app/
+.build/
+build/
+DerivedData/
+*.o
+*.dSYM/
+
+# Local logs, temporary files, and credentials
+*.log
+*.bak
+*.bak.*
+.env
+.env.*
