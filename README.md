@@ -1,21 +1,21 @@
 # App monitor
 
-轻量的 macOS 应用资源监视器，采用原生蓝色毛玻璃界面。
+A lightweight macOS app resource monitor with a native blue glass interface.
 
-- 按应用汇总 CPU 和内存占用，每秒刷新。
-- 支持搜索、排序、暂停刷新和切换到应用。
-- 可包含菜单栏应用；强制退出前会确认，Finder 受到保护。
-- 数据仅在本机处理，无需联网或管理员权限。
+- App-level CPU and memory usage, refreshed every second.
+- Search, sorting, pause/resume, and double-click to switch apps.
+- Optional menu bar app monitoring and confirmed force quit. Finder is protected.
+- All data stays on your Mac. No network access or administrator permissions required.
 
-## 下载
+## Download
 
-从 [最新 Release](https://github.com/Jyikove/app-monitor/releases/latest) 下载 ZIP，解压后打开 **App monitor.app**。
+Download the ZIP from the [latest release](https://github.com/Jyikove/app-monitor/releases/latest), extract it, and open **App monitor.app**.
 
-支持 Apple Silicon Mac，要求 macOS 13 或更新版本；macOS 26 起使用原生 Liquid Glass。应用使用本地签名，未经过 Apple 公证。
+Requires an Apple Silicon Mac running macOS 13 or later. Native Liquid Glass is available on macOS 26 or later. The app is ad-hoc signed and not notarized by Apple.
 
-## 构建
+## Build
 
-安装 Apple Command Line Tools 后运行：
+With Apple Command Line Tools installed, run:
 
 ```sh
 git clone https://github.com/Jyikove/app-monitor.git
@@ -23,4 +23,4 @@ cd app-monitor
 ./Sources/build.command
 ```
 
-生成的应用位于项目根目录。CPU 百分比以整台 Mac 的总算力为基准，内存显示应用及其辅助进程的物理内存占用。
+The app is generated in the project root. CPU percentages use total machine capacity; memory includes the app and its helper processes' physical footprint.
